@@ -1,0 +1,66 @@
+body {
+	background:black url('img/bg.png');
+	font-family:'Happy Monkey', sans-serif;
+	margin:25px auto;
+	text-shadow:1px 1px 0px #fff;
+	filter:dropshadow(color=#fff, offx=1, offy=1);
+	width:600px;
+}
+h1 {
+	font-size:2.4em;
+	text-align:center;
+}
+h2 {
+	font-size:1.6em;
+}
+table {
+	width:100%;
+}
+table td {
+	background-color:white;
+	height:190px;
+	text-align:center;
+	vertical-align:middle;
+	width:190px;
+}
+table td table td {
+	background-color:transparent;
+	border:1px solid #000;
+	height:62px;
+	width:62px;
+}
+div {
+	margin:24px 0;
+	text-align:left;
+}
+ul {
+	list-style-type:square;
+}
+li {
+	margin-left:16px;
+}
+.clear {
+	clear:both;
+}
+#players {
+	text-align:left;
+}
+.player {
+	float:left;
+	width:300px;
+}
+.player + .player {
+	text-align:right;
+}
+.circle {
+	background:transparent url('img/o.png') center center no-repeat;
+}
+.cross {
+	background:transparent url('img/x.png') center center no-repeat;
+}
+.one {
+	background-color:#c3f3f9;
+}
+.two {
+	background-color:#fc94a8;
+}
